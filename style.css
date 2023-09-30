@@ -278,7 +278,7 @@ body {
   .container {
     display: grid;
     grid-template-columns: 1fr;
-    height: auto;
+    height: 90vh;
     width: 60vw;
     margin: 0 auto;
     margin-top: 5rem;
@@ -355,7 +355,6 @@ body {
     justify-items: center;
     gap: 1.2rem;
     row-gap: 2rem;
-    /* height: 7rem; */
     padding: 0.5rem;
     background-color: rgba(47, 47, 47, 0.795);
     transform: none;
@@ -431,6 +430,7 @@ body {
 @media (max-width: 32em) {
   .container {
     width: 70vw;
+    height: 80vh;
   }
   .btn::first-letter {
     font-size: 2rem;
@@ -466,9 +466,31 @@ body {
 }
 @media (max-width: 28em) {
   .modal button {
-    padding: 1rem 1.4rem;
+    padding: 0.8rem 1rem;
   }
-
+  .player {
+    padding: 2rem;
+  }
+  .score {
+    font-size: 6rem;
+  }
+  .dice-btn {
+    gap: 0.4rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+  }
+  .dice-btn img {
+    height: 5rem;
+    margin-right: 0;
+    align-self: center;
+  }
+  .btn {
+    font-size: 1rem;
+    padding: 0.6rem 2rem;
+  }
+  .current {
+    padding: 1rem;
+  }
   .modal-content {
     font-size: 2rem;
     padding: 4rem;
